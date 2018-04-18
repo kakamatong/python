@@ -3,10 +3,10 @@ from ToolUtils import ToolUtils
 import GetImage
 def main():
     print("main")
-    def printInfo():
+    def getUrlImage():
         #print("this is test for timer forever")
         GetImage.getBYImage()
-    ToolUtils.timerForever(1, printInfo)
+    ToolUtils.timerForever(600, getUrlImage)
 
     # def printInfo2():
     #     print("this is test for timer2")

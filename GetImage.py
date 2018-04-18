@@ -12,6 +12,7 @@ def getBYImage():
         print("isExists %s" % filePath)
         pass
     else:
+        print("get Image %s" % filePath)
         url = 'http://cn.bing.com/'
         con = requests.get(url)
         content = con.text
