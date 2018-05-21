@@ -1,6 +1,8 @@
 import os
 import sys
 import re
+
+#分析so在崩溃信息（堆栈）
 fileName = "log.txt"
 #filePath = os.path.join(os.getcwd(), fileName)
 with open(fileName) as f:

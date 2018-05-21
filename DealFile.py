@@ -13,15 +13,19 @@ import zipfile
 files = [
 
 ]
+
 channelIDs = [
 
 ]
+
 hotupPath = [
 
 ]
+
 dirs = [
 
 ]
+
 def deleteFilesAndDirs():
     for f in files:
         path = os.path.join(f)
